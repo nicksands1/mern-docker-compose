@@ -7,7 +7,7 @@ const cors = require('cors')
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb+srv://admin:Barbara1@cluster0.exrbzqm.mongodb.net/mernapp?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://admin:password@cluster0.exrbzqm.mongodb.net/mernapp?retryWrites=true&w=majority")
 .then(() => console.log("Database is connected"))
 .catch(err => console.log(err))
     
